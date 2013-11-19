@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
-require 'sphero'
 require './workshop'
+require 'sphero'
 
 sphero = Sphero.connect Device::PATH
 

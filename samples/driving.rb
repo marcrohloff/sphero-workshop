@@ -1,14 +1,15 @@
 #!/usr/bin/env ruby
 
-require 'sphero'
 require './workshop'
 require 'io/console'
+require 'sphero'
 
 puts "=========================="
 puts "Use A and D to steer"
 puts "Use W to accelerate, Z to break"
 puts "Space to exit"
 
+puts "Connecting ..."
 sphero = Sphero.connect Device::PATH
 
 speed = 0
@@ -16,6 +17,7 @@ speed = 0
 sphero.back_led_output = 255
 sphero.rgb(0,0,0)
 
+puts "GO !"
 loop do
   c = $stdin.getch
 
