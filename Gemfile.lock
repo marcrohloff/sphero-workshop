@@ -1,0 +1,16 @@
+GIT
+  remote: git://github.com/marcrohloff/sphero.git
+  revision: 0f9d5bd9ce1ec554fd4d97236f7078bf4e3f7509
+  specs:
+    sphero (1.4.1.20130725165742)
+
+GEM
+  specs:
+    hybridgroup-serialport (1.2.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  hybridgroup-serialport
+  sphero!
