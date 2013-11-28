@@ -26,10 +26,10 @@ $ cd workshop
 $ bundle install
 ```
 
-Connecting with Bluetooth
---------------------------
+Pairing with Bluetooth for Ubuntu
+------------------------------------
 
-(From the https://github.com/hybridgroup/sphero project)
+(From the https://github.com/hybridgroup/sphero#pairing-sphero-with-ubuntu project)
 
 ```
 $ sudo hcitool scan
