@@ -14,6 +14,9 @@ def polygon(sphero, sides, time)
 
 end
 
-sphero = Sphero.connect Device::PATH
-polygon(sphero, 3, 4)
+sphero = Sphero.connect(Device::PATH)
+
+polygon(sphero, 3, 5)
+
+sphero.close
 

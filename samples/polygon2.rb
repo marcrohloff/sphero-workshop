@@ -18,5 +18,7 @@ def polygon(sphero, sides, inches)
 end
 
 sphero = Sphero.connect Device::PATH
+
 polygon(sphero, 3, 4)
 
+sphero.close

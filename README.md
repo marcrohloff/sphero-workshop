@@ -17,12 +17,14 @@ $ sudo apt-get git
 $ \curl -L https://get.rvm.io | bash
 $ sudo usermod -a -G dialout $USER
 ```
+
 Reboot
 
 ```
 $ rvm install 1.9.3
 $ git clone git@github.com:marcrohloff/sphero-workshop.git workshop
 $ cd workshop
+$ cp device.rb.example device.rb
 $ bundle install
 ```
 

@@ -53,3 +53,5 @@ loop do
 end
 
 sphero.back_led_output = 0
+
+sphero.close

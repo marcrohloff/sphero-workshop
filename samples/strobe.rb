@@ -13,3 +13,5 @@ sphero.rgb(10,10,10)
 end
 
 sphero.back_led_output = 0
+
+sphero.close

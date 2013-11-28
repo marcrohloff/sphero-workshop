@@ -14,3 +14,5 @@ sphero.back_led_output = 255
 end
 
 sphero.back_led_output = 0
+
+sphero.close
