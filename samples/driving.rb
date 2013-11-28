@@ -22,25 +22,31 @@ loop do
   c = $stdin.getch
 
   case c
-    when "w"
+    when "w", "A"
       speed = speed + 10
       speed = 255 if speed > 255
       sphero.roll(speed, 0)
       sphero.rgb(speed*2, speed, speed)
 
-    when "z"
+    when "z", "B"
       speed = speed - 20
       speed = 0 if speed < 0
       sphero.roll(speed, 0)
       sphero.rgb(speed*2, speed, speed)
 
-    when "a"
+    when "a", "D"
       sphero.heading = 330
 
-    when "d"
+    when "d", "C"
       sphero.heading =  30
 
     when " "
+      # stop
+      speed = 0
+      sphero.roll(speed, 0)
+      sphero.rgb(speed*2, speed, speed)
+
+    when "\r"
       break
 
   end

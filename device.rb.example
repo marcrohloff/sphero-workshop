@@ -1,4 +1,5 @@
 class Device
   # Replace ### with your Sphero's 3 letter code
-  PATH = '/dev/tty.Sphero-###-RN-SPP'
+  PATH = '/dev/rfcomm0'
+  # PATH = '/dev/tty.Sphero-###-RN-SPP'
 end
