@@ -1,5 +1,6 @@
-PATH
-  remote: ~/Projects/Temp/sphero
+GIT
+  remote: git://github.com/marcrohloff/sphero.git
+  revision: 8c00b8426a27080c35ea816fd5e6e81ceb2298a2
   specs:
     sphero (1.4.1.20130725165742)
 
