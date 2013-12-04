@@ -12,18 +12,25 @@ Setup for Ubuntu
 -----------------
 
 ```
-$ sudo apt-get curl
-$ sudo apt-get git
+$ sudo apt-get update
+$ sudo apt-get install curl
+$ sudo apt-get install git
+$ sudo apt-get install flashplugin-installer
 $ \curl -L https://get.rvm.io | bash
 $ sudo usermod -a -G dialout $USER
 ```
+
+Optionally install the following from the Software Manager
+* Adobe flash
+* Touchpad manager
 
 Reboot
 
 ```
 $ rvm install 1.9.3
-$ git clone git@github.com:marcrohloff/sphero-workshop.git workshop
+$ git clone https://github.com/marcrohloff/sphero-workshop.git workshop
 $ cd workshop
+$ gem install redcar
 $ cp device.rb.example device.rb
 $ bundle install
 ```
