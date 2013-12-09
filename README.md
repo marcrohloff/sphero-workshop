@@ -1,7 +1,7 @@
 sphero-workshop
 ===============
 
-Repo for Lafayette Tech Sphero Workshop
+Repo for Lafayette Tech Sphero Workshop.
 
 Copy `device.rb.example` to `device.rb` and put in your device code.
 This will be used in all files.
@@ -18,11 +18,11 @@ $ \curl -L https://get.rvm.io | bash
 $ sudo usermod -a -G dialout $USER
 ```
 
-Optionally install the following from the Software Manager
+Optionally, install the following from the Software Manager:
 * Adobe flash
 * Touchpad manager
 
-Reboot
+Reboot the system, then install ruby and gems:
 
 ```
 $ rvm install 1.9.3
@@ -36,7 +36,7 @@ $ bundle install
 Pairing with Bluetooth for Ubuntu
 ------------------------------------
 
-()From https://github.com/hybridgroup/sphero#pairing-sphero-with-ubuntu)
+(From https://github.com/hybridgroup/sphero#pairing-sphero-with-ubuntu)
 
 ```
 $ sudo hcitool scan
